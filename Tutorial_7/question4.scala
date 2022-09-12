@@ -35,9 +35,6 @@ object question3 extends App{
 
 
     var Bank = List(new Account(1, 100000), new Account(2, -10000), new Account(3, -1000), new Account(3, 2000));
-    var negativeBalances = findNegativeAccounts(Bank);
-    var sumAllAccountBalances = findSumBalance(Bank);
-    var finalBalances = FindFinalBalance(Bank);
 
     println("List of Accounts with negative balances in Bank: " + findNegativeAccounts(Bank) +"\n");
     println("Sum of all account balances in Bank : "+ findSumBalance(Bank) +"\n");
